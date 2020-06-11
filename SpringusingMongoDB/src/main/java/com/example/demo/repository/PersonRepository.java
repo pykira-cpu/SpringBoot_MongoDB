@@ -16,3 +16,4 @@ public interface PersonRepository extends MongoRepository<Person, String> {
 	public List<Person> findByAge(int age);
 	
 }
+
